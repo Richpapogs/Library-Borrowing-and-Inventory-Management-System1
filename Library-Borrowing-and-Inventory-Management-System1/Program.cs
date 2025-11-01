@@ -16,7 +16,7 @@ namespace Library_Borrowing_and_Inventory_Management_System1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new form1());
         }
     }
 }
