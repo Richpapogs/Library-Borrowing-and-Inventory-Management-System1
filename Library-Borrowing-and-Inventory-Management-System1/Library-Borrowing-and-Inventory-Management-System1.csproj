@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Borrowingform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrowingform.Designer.cs">
+      <DependentUpon>Borrowingform.cs</DependentUpon>
+    </Compile>
     <Compile Include="form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Borrowingform.resx">
+      <DependentUpon>Borrowingform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
