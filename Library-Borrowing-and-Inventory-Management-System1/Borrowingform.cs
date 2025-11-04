@@ -41,5 +41,25 @@ namespace Library_Borrowing_and_Inventory_Management_System1
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Borrowingform_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
